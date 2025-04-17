@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#content {
+  padding: 20px;
+}
